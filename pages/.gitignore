@@ -1,0 +1,109 @@
+# ==========================================
+# PMC-PRO V12
+# Streamlit + SQLite Professional Git Ignore
+# ==========================================
+
+# ------------------------------------------
+# Python
+# ------------------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environments
+venv/
+env/
+ENV/
+.venv/
+
+# Python Packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Testing & Coverage
+.pytest_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# ------------------------------------------
+# Streamlit
+# ------------------------------------------
+.streamlit/secrets.toml
+
+# Optional:
+# إذا كنت تريد مشاركة إعدادات التطبيق
+# لا تضف config.toml هنا
+#
+# إذا كنت لا تريد مشاركته:
+# .streamlit/config.toml
+
+# ------------------------------------------
+# SQLite Databases
+# ------------------------------------------
+*.db
+*.sqlite
+*.sqlite3
+
+# السماح بوجود مجلد قاعدة البيانات فقط
+!database/
+!database/.gitkeep
+
+# ------------------------------------------
+# User Uploads
+# ------------------------------------------
+uploads/*
+!uploads/.gitkeep
+
+# Blueprint Files (اختياري)
+# إذا كانت المخططات كبيرة أو خاصة:
+# blueprints/*
+# !blueprints/.gitkeep
+
+# ------------------------------------------
+# Logs
+# ------------------------------------------
+*.log
+logs/
+
+# ------------------------------------------
+# Environment Variables
+# ------------------------------------------
+.env
+.env.local
+.env.production
+
+# ------------------------------------------
+# Temporary Files
+# ------------------------------------------
+*.tmp
+*.bak
+*.old
+
+# ------------------------------------------
+# Jupyter
+# ------------------------------------------
+.ipynb_checkpoints/
+
+# ------------------------------------------
+# Streamlit Cache
+# ------------------------------------------
+.streamlit/cache/
+
+# ------------------------------------------
+# Generated Reports
+# ------------------------------------------
+reports/
+exports/
